@@ -3,7 +3,8 @@
 }
 
 body {
-  margin: 0 2rem;
+  width: 100%;
+  margin: 0 auto;
   font-family: "Ubuntu", sans-serif;
 }
 
@@ -32,9 +33,9 @@ h1 {
 ul {
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  width: 40%;
+  width: 50%;
 }
 
 li {
@@ -55,12 +56,36 @@ li:hover {
   transform: scale(1.05);
   text-decoration: underline;
 }
+/* Hero Title */
+.hero-title {
+  width: 100%;
+  text-align: center;
+  margin: 4rem auto 2rem auto;
+}
+
+.hero-title h2 {
+  max-width: 800px;
+  font-size: 2rem;
+  margin: 0 auto;
+}
 
 /* Hero Section */
-#hero-section {
+#hero-card-section {
   width: 80%;
+  height: 700px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+}
+
+.hero-card {
+  text-align: center;
+  width: 450px;
+  height: 500px;
+}
+
+.hero-card h2 {
+  max-width: 450px;
+  font-size: 1.5rem;
 }
